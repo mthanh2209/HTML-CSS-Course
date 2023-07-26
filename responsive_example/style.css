@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.main {
+  width: 1200px;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background-color: black;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 50px;
+}
+
+.content {
+  padding: 0 16px;
+  line-height: 1.6rem;
+}
+
+.content-img {
+  width: 640px;
+  max-width: 100%;
+  display: block;
+  margin: 32px auto;
+}
+
+/* mobile nav */
+.nav-bars-btn {
+  padding-left: 20px;
+  color: #fff;
+  display: none;
+}
+
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  animation: fadeIn linear 0.3s;
+  /* xuat hien tu tu */
+}
+
+.nav-mobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  max-width: 100%;
+  background-color: #fff;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all linear 0.3s;
+  /* ngoai vao trong */
+}
+
+.nav-mb-close {
+  color: black;
+  position: absolute;
+  top: 0.4rem;
+  right: 1rem;
+}
+
+.nav-mb-list {
+  margin-top: 25px;
+  list-style: none;
+}
+
+.nav-mb-item {
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-input:checked ~ .nav-overlay {
+  display: block;
+}
+
+.nav-input:checked ~ .nav-mobile {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+@media (max-width: 1023px) {
+  .nav-bars-btn {
+    display: block;
+  }
+
+  .nav-PC {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
