@@ -1,0 +1,34 @@
+.management {
+  display: flex;
+  flex-direction: row;
+  margin-top: 140px;
+  gap: 80px;
+}
+
+.management-content {
+  margin-top: 22px;
+}
+
+.management-topic {
+  padding-bottom: 32px;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--fw-bold);
+}
+
+.management-title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-semibold);
+  padding-bottom: 19px;
+}
+
+.management-desc {
+  padding-bottom: 33px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 25px;
+}
+
+.management-img {
+  width: 547px;
+  height: 473px;
+}
