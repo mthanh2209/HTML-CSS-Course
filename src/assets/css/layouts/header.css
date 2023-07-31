@@ -60,3 +60,95 @@
   padding: 10px 23px;
   font-weight: var(--fw-semibold);
 }
+
+.checkbtn {
+  width: 28px;
+  height: 31px;
+  color: var(--primary-color);
+  line-height: 70px;
+  margin-right: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn linear 0.3s;
+}
+
+#check:checked ~ .nav-overlay {
+  display: block;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .header-navbar {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+@media (max-width: 412px) {
+  .header-logo {
+    gap: 8px;
+    padding-top: 17px;
+    padding-left: 20px;
+  }
+
+  .logo-text {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  .header-navbar {
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    width: 50%;
+    background: var(--primary-color);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: block;
+    padding: 32px;
+    line-height: 40px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all linear 0.3s;
+  }
+
+  #check:checked ~ .header-navbar {
+    right: 0%;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    color: var(--secondary-color);
+  }
+
+  .nav-button {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
