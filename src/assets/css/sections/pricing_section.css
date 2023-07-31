@@ -1,0 +1,33 @@
+.pricing {
+  padding-top: 32px;
+}
+
+.pricing-text {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.pricing-title {
+  font-size: 34px;
+  font-weight: var(--fw-bold);
+  line-height: 50px;
+}
+
+.pricing-desc {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.pricing-card {
+  display: flex;
+  gap: 70px;
+}
+
+.price-number {
+  color: var(--secondary-color);
+  font-size: 76px;
+  font-weight: var(--fw-bold);
+  line-height: 100px;
+  letter-spacing: 0.2px;
+}

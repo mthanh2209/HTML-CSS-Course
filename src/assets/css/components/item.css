@@ -1,0 +1,21 @@
+.benefit-item {
+  flex: 1;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item-title {
+  line-height: 12px;
+  font-size: var(--font-size-lg);
+  font-weight: var(--fw-semibold);
+}
+
+.item-desc {
+  font-size: var(--font-size-sm);
+  font-weight: var(--fw-regular);
+  line-height: 26px;
+}

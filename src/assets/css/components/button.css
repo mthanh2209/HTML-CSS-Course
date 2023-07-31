@@ -1,0 +1,26 @@
+.btn {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: var(--fw-semibold);
+  text-decoration: none;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-primary {
+  border: 1px solid #bcd0e5;
+  background: #1f2e35; 
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
