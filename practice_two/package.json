@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "This is Thanh Nguyen's repository of html/css practice two",
   "scripts": {
-    "start": "parcel src/index.html --no-cache",
-    "build": "parcel build src/index.html --no-cache"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
