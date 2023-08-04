@@ -13,7 +13,6 @@ This is Thanh Nguyen's repository of html/css practice two
 - Apply knowledge to responsive practice one design
 - Used media queries for popular screen size
 
-
 ## Design on figma:
 
 - Design: [figma](https://www.figma.com/file/xb19lOtsIY01dWTZkx3VBR/Product-practice?node-id=0%3A1&mode=dev)
