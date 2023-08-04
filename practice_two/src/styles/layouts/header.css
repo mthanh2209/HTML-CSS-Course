@@ -1,0 +1,100 @@
+.header-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 18px;
+}
+
+.header-logo {
+	display: flex;
+	gap: 14px;
+	text-decoration: none;
+	font-weight: var(--fw-bold);
+}
+
+.logo-text {
+	font-size: 30px;
+	padding-top: 3px;
+}
+
+.checkbtn {
+	cursor: pointer;
+	display: block;
+}
+
+.nav-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	animation: fadeIn linear 0.3s;
+}
+
+#check:checked ~ .nav-overlay {
+	display: block;
+}
+
+#check {
+	display: none;
+}
+
+#check:checked ~ .header-navbar {
+	display: block;
+	transform: translateX(0%);
+	transition: all linear 0.3s;
+	opacity: 1;
+}
+
+.header-navbar {
+	position: fixed;
+	top: 80px;
+	right: 0%;
+	max-width: 60%;
+	background: var(--primary-color);
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	display: none;
+	padding: 32px;
+	opacity: 0;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: var(--secondary-color);
+	font-weight: var(--fw-regular);
+}
+
+.nav-item:hover {
+	font-weight: var(--fw-semibold);
+}
+
+.header-button {
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+
+.nav-button {
+	padding: 10px 23px;
+	font-weight: var(--fw-semibold);
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
