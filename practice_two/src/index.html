@@ -15,8 +15,12 @@
 			<img src="assets/images/logo.png" alt="Logo" />
 			<span class="text logo-text">Product</span>
 		</a>
-		<nav class="header-navbar">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
 			<img src="assets/icons/menu.svg" alt="menu open">
+		</label>
+		<label for="check" class="nav-overlay"></label>
+		<nav class="header-navbar">
 			<ul class="nav-list">
 				<li class="first-list">
 					<a href="javascript:void(0)" class="text nav-item">Product</a>
@@ -31,8 +35,10 @@
 					<a href="javascript:void(0)" class="text nav-item">Resources</a>
 				</li>
 			</ul>
-			<button class="btn btn-primary nav-button" type="submit">Sign in</button>
-			<button class="btn btn-primary nav-button" type="submit">Sign up</button>
+			<div class="header-button">
+				<button class="btn btn-primary nav-button" type="submit">Sign in</button>
+				<button class="btn btn-primary nav-button" type="submit">Sign up</button>
+			</div>
 		</nav>
 	</header>
 	<!-- END HEADER SECTION -->
