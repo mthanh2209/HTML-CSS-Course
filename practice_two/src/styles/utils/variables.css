@@ -1,0 +1,12 @@
+:root {
+	--primary-font: "Poppins";
+	--secondary-font: "Inter";
+	--tertiary-font: "Montserrat";
+
+	--fw-bold: 700;
+	--fw-semibold: 600;
+	--fw-regular: 400;
+
+	--primary-color: #fff;
+	--secondary-color: #02897a;
+}
