@@ -1,0 +1,48 @@
+.benefit-item {
+	width: 275.86%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-icon {
+	width: 3.125rem;
+	height: 3.125rem;
+	border-radius: 1.1875rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.benefit-item:nth-child(1) .item-icon {
+	background: #02897a;
+}
+
+.benefit-item:nth-child(2) .item-icon {
+	background: #4d8dff;
+}
+
+.benefit-item:nth-child(3) .item-icon {
+	background: #740a76;
+}
+
+.benefit-item:nth-child(4) .item-icon {
+	background: #f03e3d;
+}
+
+.item-content {
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+.item-title {
+	line-height: normal;
+	font-size: 1.375rem;
+	font-weight: var(--fw-semibold);
+	padding-bottom: 0.5625rem;
+}
+
+.item-desc {
+	font-weight: var(--fw-regular);
+	line-height: 1.625rem;
+}
