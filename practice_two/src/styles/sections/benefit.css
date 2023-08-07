@@ -1,0 +1,28 @@
+.benefit {
+  margin-top: 2.8125rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.benefit-text {
+	text-align: center;
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  line-height: normal;
+	padding-bottom: 3.125rem
+}
+
+.benefit-list {
+  display: grid;
+	grid-template-rows: repeat(4, 1fr);
+	gap: 0.67rem;
+	justify-content: center;
+	padding-bottom: 2.3125rem;
+}
+
+.benefit-button {
+  align-self: center;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+}
