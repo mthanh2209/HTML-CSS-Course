@@ -1,5 +1,4 @@
 .management {
-	display: grid;
 	margin-top: 3.0625rem;
 }
 
@@ -7,6 +6,8 @@
 	margin: 0 auto;
 	width: calc(349 / 16 * 1rem);
 	height: calc(306 / 16 * 1rem);
+	display: flex;
+	justify-content: center;
 }
 
 .management-content {
