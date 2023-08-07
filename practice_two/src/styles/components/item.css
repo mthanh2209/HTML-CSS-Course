@@ -10,12 +10,11 @@
 
 .item-title {
   line-height: 0.75rem;
-  font-size: var(--font-size-lg);
+  font-size: 1.375rem;
   font-weight: var(--fw-semibold);
 }
 
 .item-desc {
-  font-size: var(--font-size-sm);
   font-weight: var(--fw-regular);
   line-height: 1.625rem;
 }
