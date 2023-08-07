@@ -1,0 +1,33 @@
+.management {
+	display: grid;
+	margin-top: 49px;
+	gap: 80px;
+}
+
+.management-img {
+	width: calc(349 / 16 * 1rem);
+	height: calc(306 / 16 * 1rem);
+}
+
+.management-content {
+	margin-top: 22px;
+}
+
+.management-topic {
+	padding-bottom: 32px;
+	font-size: var(--font-size-2xl);
+	font-weight: var(--fw-bold);
+}
+
+.management-title {
+	font-size: var(--font-size-sm);
+	font-weight: var(--fw-semibold);
+	padding-bottom: 19px;
+}
+
+.management-desc {
+	padding-bottom: 33px;
+	font-size: var(--font-size-sm);
+	font-weight: var(--fw-regular);
+	line-height: 25px;
+}
