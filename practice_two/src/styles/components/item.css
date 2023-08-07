@@ -1,14 +1,14 @@
 .benefit-item {
-	width: 240px;
+	width: 275.86%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .item-icon {
-	width: 50px;
-	height: 50px;
-	border-radius: 19px;
+	width: 3.125rem;
+	height: 3.125rem;
+	border-radius: 1.1875rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -32,14 +32,14 @@
 
 .item-content {
 	text-align: center;
-	padding-top: 24px;
+	padding-top: 1.5rem;
 }
 
 .item-title {
 	line-height: normal;
 	font-size: 1.375rem;
 	font-weight: var(--fw-semibold);
-	padding-bottom: 9px;
+	padding-bottom: 0.5625rem;
 }
 
 .item-desc {
