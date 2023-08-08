@@ -29,8 +29,8 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	animation: fadeIn linear 0.3s;
+	background-color: rgba(0, 0, 0, 0.5);
+	animation: fadeIn linear 0.5s;
 }
 
 #check:checked ~ .nav-overlay {
@@ -45,21 +45,18 @@
 	display: block;
 	transform: translateX(0%);
 	transition: all linear 0.3s;
-	opacity: 1;
 }
 
 .header-navbar {
 	position: fixed;
 	top: 5rem;
-	right: 0%;
-	max-width: 65%;
+	right: 0;
 	background: #1f2e35;
 	border: 0.0625rem solid var(--primary-color);
 	border-top-left-radius: 1.875rem;
 	border-bottom-left-radius: 1.875rem;
 	display: none;
 	padding: 2rem;
-	opacity: 0;
 }
 
 .nav-list {
@@ -90,11 +87,49 @@
 	font-weight: var(--fw-semibold);
 }
 
-@keyframes fadeIn {
-	from {
-		opacity: 0;
+@media (min-width: 1200px) {
+	.checkbtn {
+		display: none;
 	}
-	to {
-		opacity: 1;
+
+	.header-navbar {
+		border: none;
+		background: transparent;
+		top: 0;
+		right: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 32px;
+		padding: 0;
+		padding-top: 19px;
+		padding-right: 150px;
+	}
+
+	.nav-list {
+		display: flex;
+		flex-direction: row;
+		gap: 32px;
+	}
+
+	.header-button {
+		padding: 0;
+		gap: 32px;
+	}
+
+	.first-list {
+		max-width: 60px;
+	}
+
+	.second-list {
+		max-width: 85px;
+	}
+
+	.third-list {
+		max-width: 50px;
+	}
+
+	.fourth-list {
+		max-width: 80px;
 	}
 }
