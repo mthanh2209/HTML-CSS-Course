@@ -11,8 +11,9 @@
 }
 
 .management-content {
-	max-width: 33.5rem;
-	padding-top: 3.125rem;
+	padding-top: 3.35rem;
+	padding-left: 32px;
+
 }
 
 .management-topic {
