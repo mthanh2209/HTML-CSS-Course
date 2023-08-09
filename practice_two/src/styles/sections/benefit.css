@@ -1,19 +1,19 @@
 .benefit {
-  margin-top: 2.8125rem;
-  display: flex;
-  flex-direction: column;
+	margin-top: 2.8125rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .benefit-text {
 	text-align: center;
-  font-size: 2rem;
-  font-weight: var(--fw-bold);
-  line-height: normal;
-	padding-bottom: 3.125rem
+	font-size: 2rem;
+	font-weight: var(--fw-bold);
+	line-height: normal;
+	padding-bottom: 3.125rem;
 }
 
 .benefit-list {
-  display: grid;
+	display: grid;
 	grid-template-rows: repeat(4, 1fr);
 	gap: 0.67rem;
 	justify-content: center;
@@ -21,8 +21,52 @@
 }
 
 .benefit-button {
-  align-self: center;
-  padding: 0.75rem 2rem;
-  text-transform: uppercase;
-  font-weight: var(--fw-bold);
+	align-self: center;
+	padding: 0.75rem 2rem;
+	text-transform: uppercase;
+	font-weight: var(--fw-bold);
+}
+
+@media (min-width: 576px) {
+	.benefit {
+		margin-top: 4rem;
+	}
+
+	.benefit-text {
+		max-width: 33rem;
+		margin: 0 auto;
+		padding-bottom: 2rem;
+	}
+
+	.benefit-list {
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2.875rem;
+	}
+
+	.benefit-button {
+		padding: 1rem 3rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.benefit {
+		margin-top: 2.8125rem;
+	}
+
+	.benefit-text {
+		max-width: 31.25rem;
+		margin: 0 auto;
+		padding-bottom: 4.75rem;
+	}
+
+	.benefit-list {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: none;
+		gap: 2.75rem;
+	}
+
+	.benefit-button {
+		padding: 1rem 4.375rem;
+	}
 }
