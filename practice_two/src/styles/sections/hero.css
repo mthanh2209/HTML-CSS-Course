@@ -70,7 +70,7 @@
 	}
 
 	.hero-content {
-		padding-top: 1.395rem;
+		padding-top: 1rem;
 	}
 
 	.hero-desc {
@@ -84,7 +84,7 @@
 		flex-direction: row-reverse;
 		align-items: center;
 	}
-	
+
 	.hero-img {
 		width: 37.5rem;
 		height: 34.75rem;

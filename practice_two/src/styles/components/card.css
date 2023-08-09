@@ -22,12 +22,12 @@
 }
 
 .card-headline {
-	padding-top: 1.5rem;
+	padding-top: 1.25rem;
 	text-align: center;
 	font-family: var(--primary-font);
 	font-size: 1.5rem;
 	font-weight: var(--fw-bold);
-	line-height: 2.5rem;
+	line-height: 3rem;
 }
 
 .card-content {
@@ -92,7 +92,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1.875rem;
+	padding: 2rem;
 }
 
 .card-button {
