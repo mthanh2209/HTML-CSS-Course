@@ -38,7 +38,7 @@
 @media (min-width: 1200px) {
 	.pricing-card {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-between;
 		gap: 4.375rem;
 	}
 

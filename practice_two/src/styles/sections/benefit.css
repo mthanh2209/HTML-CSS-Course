@@ -64,6 +64,7 @@
 	.benefit-list {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: none;
+		justify-items: baseline;
 		gap: 2.75rem;
 		padding-bottom: 1.5rem;
 	}
