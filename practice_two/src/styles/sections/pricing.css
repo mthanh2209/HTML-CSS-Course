@@ -19,8 +19,26 @@
 }
 
 .pricing-card {
-	display: grid;
-	grid-template-rows: repeat(3, 1fr);
+	display: flex;
+	flex-direction: column;
 	gap: 2rem;
-	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: 576px) {
+	.pricing-card {
+		gap: 4.4375rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.pricing-card {
+		flex-direction: row;
+		gap: 4.375rem;
+		justify-content: center;
+	}
+
+	.pricing-text {
+		padding-bottom: 2.5rem;
+	}
 }
