@@ -1,17 +1,17 @@
 .benefit-item {
-	width: 15rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 15rem;
 }
 
 .item-icon {
-	width: 3.125rem;
-	height: 3.125rem;
-	border-radius: 1.1875rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 1.1875rem;
+	width: 3.125rem;
+	height: 3.125rem;
 }
 
 .benefit-item:nth-child(1) .item-icon {
@@ -31,15 +31,15 @@
 }
 
 .item-content {
-	text-align: center;
 	padding-top: 1.5rem;
+	text-align: center;
 }
 
 .item-title {
-	line-height: normal;
+	padding-bottom: 0.5625rem;
 	font-size: 1.375rem;
 	font-weight: var(--fw-semibold);
-	padding-bottom: 0.5625rem;
+	line-height: normal;
 }
 
 .item-desc {
@@ -61,8 +61,8 @@
 	}
 
 	.item-content {
-		text-align: left;
 		padding-top: 2rem;
+		text-align: left;
 	}
 }
 

@@ -8,29 +8,29 @@
 .header-logo {
 	display: flex;
 	gap: 0.875rem;
-	text-decoration: none;
 	font-weight: var(--fw-bold);
+	text-decoration: none;
 }
 
 .logo-text {
-	font-size: 1.67rem;
 	padding-top: 0.1875rem;
+	font-size: 1.67rem;
 }
 
 .checkbtn {
-	cursor: pointer;
 	display: block;
+	cursor: pointer;
 }
 
 .nav-overlay {
-	display: none;
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
 	animation: fadeIn linear 0.5s;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 #check:checked ~ .nav-overlay {
@@ -51,12 +51,12 @@
 	position: absolute;
 	top: 5rem;
 	right: 0;
+	display: none;
+	padding: 2rem;
 	background: #1f2e35;
 	border: 0.0625rem solid var(--primary-color);
 	border-top-left-radius: 1.875rem;
 	border-bottom-left-radius: 1.875rem;
-	display: none;
-	padding: 2rem;
 }
 
 .nav-list {
@@ -67,8 +67,8 @@
 }
 
 .nav-item {
-	text-decoration: none;
 	font-weight: var(--fw-regular);
+	text-decoration: none;
 }
 
 .nav-item:hover {
@@ -76,10 +76,10 @@
 }
 
 .header-button {
-	padding-top: 0.9375rem;
 	display: flex;
 	justify-content: center;
 	gap: 0.75rem;
+	padding-top: 0.9375rem;
 }
 
 .nav-button {
@@ -93,8 +93,6 @@
 	}
 
 	.header-navbar {
-		border: none;
-		background: transparent;
 		top: 0;
 		right: 0;
 		display: flex;
@@ -104,6 +102,8 @@
 		padding: 0;
 		padding-top: 19px;
 		padding-right: 150px;
+		background: transparent;
+		border: none;
 	}
 
 	.nav-list {

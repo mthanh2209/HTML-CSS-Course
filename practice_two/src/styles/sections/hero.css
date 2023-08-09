@@ -3,16 +3,16 @@
 }
 
 .hero-img {
-	margin: 0 auto;
-	width: 21.125rem;
-	height: 100%;
 	display: flex;
 	justify-content: center;
+	width: 21.125rem;
+	height: 100%;
+	margin: 0 auto;
 }
 
 .hero-content {
-	text-align: center;
 	padding-top: 1.125rem;
+	text-align: center;
 }
 
 .hero-title {
@@ -41,8 +41,8 @@
 }
 
 .hero-button {
-	font-weight: var(--fw-bold);
 	padding: 1.125rem 1.5rem;
+	font-weight: var(--fw-bold);
 }
 
 .link-icon {
@@ -52,10 +52,10 @@
 }
 
 .link-button {
+	display: flex;
 	font-size: var(--font-size-sm);
 	font-weight: var(--fw-bold);
 	text-decoration-line: underline;
-	display: flex;
 }
 
 .link-video:hover .link-button,
@@ -93,10 +93,10 @@
 	}
 
 	.hero-content {
-		text-align: left;
 		display: flex;
 		flex-direction: column;
 		padding-top: 6.5rem;
+		text-align: left;
 	}
 
 	.hero-title {
@@ -104,15 +104,15 @@
 	}
 
 	.hero-desc {
-		padding: 0;
 		max-width: 28rem;
+		padding: 0;
 		padding-top: 1rem;
 	}
 
 	.hero-link {
-		padding-top: 3.5rem;
 		display: flex;
 		justify-content: flex-start;
+		padding-top: 3.5rem;
 	}
 
 	.hero-button {
