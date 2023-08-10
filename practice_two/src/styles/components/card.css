@@ -22,12 +22,12 @@
 }
 
 .card-headline {
-	width: 20.125rem;
-	background: var(--primary-color);
-	border-radius: 0.5rem;
-	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-	color: #22343d;
-	flex-shrink: 0;
+	padding-top: 1.25rem;
+	font-size: 1.5rem;
+	font-family: var(--primary-font);
+	font-weight: var(--fw-bold);
+	line-height: 3rem;
+	text-align: center;
 }
 
 .card-content {
