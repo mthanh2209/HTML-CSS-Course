@@ -35,31 +35,34 @@
 	gap: 1.875rem;
 }
 
-.link-video {
-	display: flex;
-	gap: 0.3125rem;
-}
-
 .hero-button {
 	padding: 1.125rem 1.5rem;
 	font-weight: var(--fw-bold);
 }
 
-.link-icon {
+.video-link {
+	display: flex;
+	gap: 0.3125rem;
+}
+
+.icon-link {
+	display: inline-block;
+	background-image: url(/practice_two/src/assets/icons/triangle.svg);
+	background-repeat: no-repeat;
 	width: 1.25rem;
 	height: 1.25rem;
 	cursor: pointer;
 }
 
-.link-button {
-	display: flex;
-	font-size: var(--font-size-sm);
-	font-weight: var(--fw-bold);
-	text-decoration-line: underline;
+.video-link:hover .icon-link {
+	background-image: url(/practice_two/src/assets/icons/triangle_hover.svg);
 }
 
-.link-video:hover .link-button,
-.link-video:hover .link-icon {
+.button-link {
+	font-weight: var(--fw-bold);
+}
+
+.video-link:hover .button-link {
 	color: var(--secondary-color);
 }
 
