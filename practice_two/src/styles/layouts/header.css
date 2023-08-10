@@ -2,7 +2,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 1.125rem;
+	padding-top: 1rem;
 }
 
 .header-logo {
@@ -93,15 +93,10 @@
 	}
 
 	.header-navbar {
-		top: 0;
-		right: 0;
+		position: static;
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
 		gap: 32px;
 		padding: 0;
-		padding-top: 19px;
-		padding-right: 150px;
 		background: transparent;
 		border: none;
 	}
