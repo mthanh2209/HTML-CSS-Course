@@ -5,7 +5,6 @@
 }
 
 .benefit-text {
-	padding-bottom: 3.125rem;
 	font-size: 2rem;
 	font-weight: var(--fw-bold);
 	line-height: normal;
@@ -17,6 +16,7 @@
 	grid-template-rows: repeat(4, 1fr);
 	gap: 0.67rem;
 	justify-content: space-evenly;
+	padding-top: 3.125rem;
 	padding-bottom: 2.3125rem;
 }
 
@@ -35,7 +35,6 @@
 	.benefit-text {
 		margin: 0 auto;
 		max-width: 33rem;
-		padding-bottom: 2rem;
 	}
 
 	.benefit-list {
@@ -43,6 +42,7 @@
 		grid-template-columns: repeat(2, 1fr);
 		row-gap: 2.5rem;
 		justify-items: center;
+		padding-top: 2rem;
 	}
 
 	.benefit-button {
@@ -58,7 +58,6 @@
 	.benefit-text {
 		margin: 0 auto;
 		max-width: 31.25rem;
-		padding-bottom: 4.75rem;
 	}
 
 	.benefit-list {
@@ -67,6 +66,7 @@
 		justify-items: normal;
 		justify-content: normal;
 		gap: 0.25rem;
+		padding-top: 4.75rem;
 		padding-bottom: 1.5rem;
 	}
 
