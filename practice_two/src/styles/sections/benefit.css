@@ -16,7 +16,7 @@
 	display: grid;
 	grid-template-rows: repeat(4, 1fr);
 	gap: 0.67rem;
-	justify-content: center;
+	justify-content: space-evenly;
 	padding-bottom: 2.3125rem;
 }
 
@@ -64,8 +64,9 @@
 	.benefit-list {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: none;
-		justify-items: baseline;
-		gap: 2.75rem;
+		justify-items: normal;
+		justify-content: normal;
+		gap: 0.25rem;
 		padding-bottom: 1.5rem;
 	}
 

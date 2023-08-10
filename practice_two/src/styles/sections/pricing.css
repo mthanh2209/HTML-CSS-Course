@@ -39,7 +39,7 @@
 	.pricing-card {
 		flex-direction: row;
 		gap: 4.375rem;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.pricing-text {
