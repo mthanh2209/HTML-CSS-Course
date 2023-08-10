@@ -1,18 +1,18 @@
 .btn {
-	color: var(--primary-color);
-	font-family: var(--primary-font);
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
 	font-size: 1rem;
+	font-family: var(--primary-font);
 	font-weight: var(--fw-semibold);
+	color: var(--primary-color);
 	text-decoration: none;
 	flex-shrink: 0;
-	border-radius: 0.25rem;
-	border: none;
-	cursor: pointer;
 }
 
 .btn:hover {
-	background: var(--secondary-color);
 	border: 0.0625rem solid var(--secondary-color);
+	background: var(--secondary-color);
 }
 
 .btn-primary {
@@ -21,6 +21,6 @@
 }
 
 .btn-secondary {
-	background: var(--secondary-color);
 	border: 0.0625rem solid var(--secondary-color);
+	background: var(--secondary-color);
 }
