@@ -43,7 +43,7 @@
 
 .icon-link {
 	display: inline-block;
-	background-image: url(/practice_two/src/assets/icons/triangle.svg);
+	background-image: url(/src/assets/icons/triangle.svg);
 	background-repeat: no-repeat;
 	width: 1.25rem;
 	height: 1.25rem;
@@ -51,7 +51,7 @@
 }
 
 .video-link:hover .icon-link {
-	background-image: url(/practice_two/src/assets/icons/triangle_hover.svg);
+	background-image: url(/src/assets/icons/triangle_hover.svg);
 }
 
 .button-link {
