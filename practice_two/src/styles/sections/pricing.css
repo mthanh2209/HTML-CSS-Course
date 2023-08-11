@@ -3,7 +3,7 @@
 }
 
 .pricing-text {
-	padding-bottom: 3rem;
+	margin-bottom: 3rem;
 	text-align: center;
 }
 
@@ -43,6 +43,6 @@
 	}
 
 	.pricing-text {
-		padding-bottom: 2.5rem;
+		margin-bottom: 2.5rem;
 	}
 }

@@ -5,6 +5,10 @@
 	margin-bottom: 3.5rem;
 }
 
+.logo-footer {
+	display: inline-block;
+}
+
 .social-icon-list {
 	display: flex;
 	gap: 1rem;
@@ -17,7 +21,7 @@
 }
 
 .footer-text {
-	padding-top: 2.6875rem;
+	margin-top: 2.6875rem;
 	font-weight: var(--fw-regular);
 	text-align: center;
 }
