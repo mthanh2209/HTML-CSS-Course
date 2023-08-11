@@ -7,7 +7,7 @@
 }
 
 .hero-content {
-	padding-top: 1.125rem;
+	margin-top: 1.125rem;
 	text-align: center;
 }
 
@@ -69,7 +69,7 @@
 	}
 
 	.hero-content {
-		padding-top: 1rem;
+		margin-top: 1rem;
 	}
 
 	.hero-desc {
@@ -93,7 +93,7 @@
 	.hero-content {
 		display: flex;
 		flex-direction: column;
-		padding-top: 6.5rem;
+		margin-top: 6.5rem;
 		text-align: left;
 	}
 
