@@ -11,23 +11,23 @@
 }
 
 .management-content {
-	margin-top: 3.35rem;
-	margin-left: 32px;
+	margin-top: 3.5rem;
+	margin-left: 1.25rem;
 
 }
 
 .management-topic {
 	font-size: 2rem;
 	font-weight: var(--fw-bold);
+	padding-top: 1.2rem;
 }
 
 .management-title {
-	font-size: var(--font-size-sm);
 	font-weight: var(--fw-semibold);
 }
 
 .management-desc {
-	padding-top: 1.6875rem;
+	padding-top: 1.6rem;
 	padding-bottom: 1.25rem;
 	font-weight: var(--fw-regular);
 	line-height: 1.625rem;
