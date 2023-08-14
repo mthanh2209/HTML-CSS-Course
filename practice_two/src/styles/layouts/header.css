@@ -75,6 +75,15 @@
 	font-weight: var(--fw-semibold);
 }
 
+.nav-item::before {
+	content: attr(title);
+	display: block;
+	font-weight: var(--fw-semibold);
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
 .header-button {
 	display: flex;
 	justify-content: center;
@@ -110,21 +119,5 @@
 	.header-button {
 		padding: 0;
 		gap: 32px;
-	}
-
-	.first-list {
-		max-width: 60px;
-	}
-
-	.second-list {
-		max-width: 85px;
-	}
-
-	.third-list {
-		max-width: 50px;
-	}
-
-	.fourth-list {
-		max-width: 80px;
 	}
 }
