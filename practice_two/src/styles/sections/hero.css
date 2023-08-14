@@ -1,14 +1,14 @@
+.hero {
+	text-align: center;
+}
+
 .hero-img {
-	display: flex;
-	justify-content: center;
 	width: 21.125rem;
 	height: 100%;
-	margin: 0 auto;
 }
 
 .hero-content {
 	margin-top: 1.125rem;
-	text-align: center;
 }
 
 .hero-title {
@@ -62,12 +62,8 @@
 
 @media (min-width: 576px) {
 	.hero-img {
-		width: 34.4375rem;
+		width: 32.625rem;
 		height: 26.625rem;
-	}
-
-	.hero-content {
-		margin-top: 1rem;
 	}
 
 	.hero-desc {
@@ -83,14 +79,11 @@
 	}
 
 	.hero-img {
-		margin: 0;
 		width: 37.5rem;
 		height: 34.75rem;
 	}
 
 	.hero-content {
-		display: flex;
-		flex-direction: column;
 		margin-top: 6.5rem;
 		text-align: left;
 	}
@@ -106,7 +99,6 @@
 	}
 
 	.hero-link {
-		display: flex;
 		justify-content: flex-start;
 		padding-top: 3.5rem;
 	}
