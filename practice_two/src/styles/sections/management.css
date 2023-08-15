@@ -1,11 +1,9 @@
 .management {
 	margin-top: 3.0625rem;
+	text-align: center;
 }
 
 .management-img {
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
 	width: 21.8125rem;
 	height: 19.125rem;
 }
@@ -13,6 +11,7 @@
 .management-content {
 	margin-top: 3.5rem;
 	margin-left: 1.25rem;
+	text-align: left;
 
 }
 
@@ -44,7 +43,6 @@
   }
 
   .management-content {
-    max-width: none;
     margin: 1.5rem 3.56rem;
   }
 }
@@ -58,17 +56,11 @@
   }
 
   .management-img {
-    display: flex;
-    justify-content: start;
-		margin: 0;
 		width: 34.25rem;
     height: 29.625rem;
   }
 
   .management-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		max-width: 30.8rem;
     margin: 0;
   }
